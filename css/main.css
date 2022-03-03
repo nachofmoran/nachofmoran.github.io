@@ -11,6 +11,7 @@
 
 html {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .scroll-btn{
@@ -50,11 +51,14 @@ body {
 .text-title h1 {
   font-size: 2rem;
   color: #343779;
+  width: fit-content;
+  text-align: center;
 }
 
 .text-title h2 {
   font-size: 1rem;
   color: #f86041;
+  text-align: center;
 }
 
 
@@ -256,6 +260,7 @@ section {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: var(--primaryColor);
+  overflow-x: hidden;
 }
 
 section#home {
