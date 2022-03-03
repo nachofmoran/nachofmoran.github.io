@@ -379,7 +379,7 @@ section#contact {
   }
 
   .skills-container {
-    height: 40vh;
+    height: fit-content;
     width: 60vw;
   }
 
