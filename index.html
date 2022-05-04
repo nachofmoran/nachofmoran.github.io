@@ -1,262 +1,411 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nacho Portfolio</title>
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/popup.css">
-	</head>
-	<body>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/popup.css" />
+  </head>
+  <body>
     <!-- <canvas class="webgl"></canvas> -->
-		
-    <!-- Menu Overlay -->
-  <div class="overlay overlay-slide-left" id="overlay">
-    <!-- Menu Items -->
-    <nav>
-      <ul>
-        <li id="nav-1" class="slide-out-1 btn-nav"><a href="#home">Inicio</a></li>
-        <li id="nav-2" class="slide-out-2 btn-nav"><a href="#about">Sobre mí</a></li>
-        <li id="nav-3" class="slide-out-3 btn-nav"><a href="#skills">Habilidades</a></li>
-        <li id="nav-4" class="slide-out-4 btn-nav"><a href="#projects">Proyectos</a></li>
-        <li id="nav-5" class="slide-out-5 btn-nav"><a href="#contact">Contacto</a></li>
 
-      </ul>
-    </nav>
-  </div>
-  <!-- Menu Bars -->
-  <div class="menu-bars" id="menu-bars">
-    <div class="bar1"></div>
-    <div class="bar2"></div>
-    <div class="bar3"></div>
-  </div>
-  <!-- Sections -->
-  <section id="home">
-    <div class="text-title">
-      <h1>Nacho F. Morán<br></h1>
-      <h2>Desarrollador front-end</h2>
-      <a class="home-btn btn-smooth" href="#about">Sobre mí</a>
+    <!-- Menu Overlay -->
+    <div class="overlay overlay-slide-left" id="overlay">
+      <!-- Menu Items -->
+      <nav>
+        <ul>
+          <li id="nav-1" class="slide-out-1 btn-nav">
+            <a href="#home">Inicio</a>
+          </li>
+          <li id="nav-2" class="slide-out-2 btn-nav">
+            <a href="#about">Sobre mí</a>
+          </li>
+          <li id="nav-3" class="slide-out-3 btn-nav">
+            <a href="#skills">Habilidades</a>
+          </li>
+          <li id="nav-4" class="slide-out-4 btn-nav">
+            <a href="#projects">Proyectos</a>
+          </li>
+          <li id="nav-5" class="slide-out-5 btn-nav">
+            <a href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <!-- <a href="https://github.com/nachofmoran">Accede a mi cuenta de Github</a> -->
-    <canvas class="webgl"></canvas>
-  </section>
-  <section id="about">
-    <h1>Sobre mí</h1>
-    <div class="about">
-      <img src="./assets/images/gran_via.png" alt="Nacho" width="100%"/>
-      <div class="text">
-        <p>¡Hola! Soy Nacho, un desarrollador que está dando sus primero pasos en el mundo del front-end. He estado un tiempo
-          trabajando con Wordpress y ahora ando metido en React, Javascript, HTML, CSS etc. Antes hacía modelos en 3D. Bueno, todavía los
-          hago, pero ahora mi idea es combinarlos con el desarrollo web para crear sitios más atractivos. Me interesa también el desarrollo 
-          de aplicaciones para móviles, así que más pronto que tarde me pondré a ello. Además, me gusta jugar con Photoshop, ya sea para 
-          hacer fotomontajes, matte painting, ilustraciones o lo que se me pase por la cabeza.</p>
-        <a class="about-btn btn-smooth" href="#skills">Habilidades</a>
-      </div>
+    <!-- Menu Bars -->
+    <div class="menu-bars" id="menu-bars">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
     </div>
-  </section>
-  <section id="skills">
-    <h1>Habilidades</h1>
-    <div class="skills">
-      <div class="text">
-        <p>En los últimos meses he estado trabajando principalmente con <span>React</span>, <span>Javascript</span>, <span>HTML</span> y <span>CSS</span>. 
-          También con <span>Three.js</span>. Antes, estuve varios años usando <span>Wordpress</span> y <span>Woocommerce</span> para crear mi tienda online,
-          y hace tiempo programé microcontroladores en <span>C</span> y videojuegos en <span>C#</span> con <span>Unity 3D</span>. <span>3DS Max</span> lo he 
-          utilicé primero para hacer modelos para videojuegos, luego para hacer renders de productos y ahora para hacer páginas web. <span>Photoshop</span> ni
-          me acuerdo ya de hace cuantos años empecé a usarlo, y todavía sigo con ello.         
-        </p>
-        <a class="skills-btn btn-smooth" href="#projects">Proyectos</a>
+    <!-- Sections -->
+    <section id="home">
+      <div class="text-title">
+        <h1>Nacho F. Morán<br /></h1>
+        <h2>Desarrollador front-end</h2>
+        <a class="home-btn btn-smooth" href="#about">Sobre mí</a>
       </div>
-      <div class="skills-container">
-        <div class="wrapper">
-          <div class="marquee">
-            <p>
-              <span>React</span> - Javascript - CSS - HTML - Wordpress - WooCommerce - Three.js - Unity 3D - C - C# - Photoshop - 3DS Max - <span>React</span> - Javascript - CSS - HTML - Wordpress - <span>React</span> - Three.js - Unity 3D -&nbsp;
-            </p>
-            <p>
-              <span>React</span> - Javascript - CSS - HTML - Wordpress - WooCommerce - Three.js - Unity 3D - C - C# - Photoshop - 3DS Max - <span>React</span> - Javascript - CSS - HTML - Wordpress - WooCommerce - Three.js - <span>React</span> -&nbsp;
-            </p>
-          </div>
-        </div>
-        <div class="wrapper">
-          <div class="marquee3">
-            <p>
-              React - <span>Javascript</span> - CSS - HTML - Wordpress - WooCommerce - Three.js - Unity 3D - C - C# - Photoshop - 3DS Max - React - <span>Javascript</span> - CSS - HTML - Wordpress - WooCommerce - Three.js - <span>Javascript</span> -&nbsp;
-            </p>
-            <p>
-              React - <span>Javascript</span> - CSS - HTML - Wordpress - WooCommerce - Three.js - Unity 3D - C - C# - Photoshop - 3DS Max - React - <span>Javascript</span> - CSS - HTML - Wordpress - WooCommerce - Three.js - <span>Javascript</span> -&nbsp;
-            </p>
-          </div>
-        </div>
-        <div class="wrapper">
-          <div class="marquee2">
-            <p>
-              React - Javascript - <span>CSS</span> - HTML - Wordpress - WooCommerce - Three.js - Unity 3D - C - <span>CSS</span> - Photoshop - 3DS Max - React - Javascript - <span>CSS</span> - HTML - Wordpress - WooCommerce - Three.js - Unity 3D -&nbsp;
-            </p>
-            <p>
-              React - Javascript - <span>CSS</span> - HTML - Wordpress - WooCommerce - Three.js - Unity 3D - C - <span>CSS</span> - Photoshop - 3DS Max - React - Javascript - <span>CSS</span> - HTML - Wordpress - WooCommerce - Three.js - Unity 3D -&nbsp;
-            </p>
-          </div>
-        </div>
-        <div class="wrapper">
-          <div class="marquee3">
-            <p>
-              React - Javascript - CSS - <span>HTML</span> - Wordpress - WooCommerce - Three.js - Unity 3D - <span>HTML</span> - C# - Photoshop - 3DS Max - React - Javascript - CSS - <span>HTML</span> - Wordpress - WooCommerce - Three.js - Unity 3D -&nbsp;
-            </p>
-            <p>
-              React - Javascript - CSS - <span>HTML</span> - Wordpress - WooCommerce - Three.js - Unity 3D - <span>HTML</span> - C# - Photoshop - 3DS Max - React - Javascript - CSS - <span>HTML</span> - Wordpress - WooCommerce - Three.js - Unity 3D -&nbsp;
-            </p>
-          </div>
-        </div>
-        <div class="wrapper">
-          <div class="marquee ">
-            <p>
-              React - Javascript - CSS - HTML - <span>Wordpress</span> - WooCommerce - Three.js - Unity 3D - C - C# - <span>Wordpress</span> - 3DS Max - React - Javascript - CSS - HTML - <span>Wordpress</span> - WooCommerce - Three.js - Unity 3D -&nbsp;
-            </p>
-            <p>
-              React - Javascript - CSS - HTML - <span>Wordpress</span> - WooCommerce - Three.js - Unity 3D - C - C# - Photoshop - <span>Wordpress</span> - React - Javascript - CSS - HTML - <span>Wordpress</span> - WooCommerce - Three.js - Unity 3D -&nbsp;
-            </p>
-          </div>
-        </div>
-        <div class="wrapper">
-          <div class="marquee4">
-            <p>
-              <span>Three.js</span> - Javascript - CSS - HTML - Wordpress - WooCommerce - <span>Three.js</span> - Unity 3D - C - C# - Photoshop - 3DS Max - React - Javascript - CSS - HTML - Wordpress - WooCommerce - <span>Three.js</span> - Unity 3D -&nbsp;
-            </p>
-            <p>
-              React - <span>Three.js</span> - CSS - HTML - Wordpress - WooCommerce - <span>Three.js</span> - Unity 3D - C - C# - Photoshop - 3DS Max - React - Javascript - CSS - HTML - Wordpress - WooCommerce - <span>Three.js</span> - Unity 3D -&nbsp;
-            </p>
-          </div>
-        </div>
-        <div class="wrapper">
-          <div class="marquee">
-            <p>
-              React - Javascript - CSS - HTML - Wordpress - WooCommerce - Three.js - <span>Unity 3D</span> - C - C# - Photoshop - 3DS Max - React - <span>Unity 3D</span> - CSS - HTML - Wordpress - WooCommerce - Three.js - <span>Unity 3D</span> -&nbsp;
-            </p>
-            <p>
-              React - Javascript - CSS - HTML - Wordpress - WooCommerce - Three.js - <span>Unity 3D</span> - C - C# - Photoshop - 3DS Max - React - Javascript - <span>Unity 3D</span> - HTML - Wordpress - WooCommerce - Three.js - <span>Unity 3D</span> -&nbsp;
-            </p>
-          </div>
-        </div>
-        <div class="wrapper">
-          <div class="marquee3">
-            <p>
-              React - Javascript - <span>C</span> - HTML - Wordpress - WooCommerce - Three.js - Unity 3D - <span>C</span> - C# - Photoshop - 3DS Max - React - Javascript - CSS - HTML - <span>C</span> - WooCommerce - Three.js - Unity 3D -&nbsp;
-            </p>
-            <p>
-              React - Javascript - <span>C</span> - HTML - Wordpress - WooCommerce - Three.js - Unity 3D - <span>C</span> - C# - Photoshop - 3DS Max - React - Javascript - CSS - HTML - <span>C</span> - WooCommerce - Three.js - Unity 3D -&nbsp;
-            </p>
-          </div>
-        </div>
-        <div class="wrapper">
-          <div class="marquee2">
-            <p>
-              <span>C#</span> - Javascript - CSS - HTML - Wordpress - WooCommerce - Three.js - Unity 3D - C - <span>C#</span> - Photoshop - 3DS Max - React - Javascript - CSS - HTML - Wordpress - WooCommerce - Three.js - <span>C#</span> -&nbsp;
-            </p>
-            <p>
-              React - <span>C#</span> - CSS - HTML - Wordpress - WooCommerce - Three.js - Unity 3D - C - <span>C#</span> - Photoshop - 3DS Max - React - Javascript - CSS - HTML - Wordpress - WooCommerce - Three.js - <span>C#</span> -&nbsp;
-            </p>
-          </div>
-        </div>
-        <div class="wrapper">
-          <div class="marquee3">
-            <p>
-              React - Javascript - CSS - HTML - Wordpress - <span>Woocommerce</span> - Three.js - Unity 3D - C - C# - <span>Woocommerce</span> - 3DS Max - React - Javascript - CSS - HTML - Wordpress - <span>Woocommerce</span> - Three.js - Unity 3D -&nbsp;
-            </p>
-            <p>
-              React - Javascript - CSS - HTML - Wordpress - <span>Woocommerce</span> - Three.js - Unity 3D - C - C# - <span>Woocommerce</span> - 3DS Max - React - Javascript - CSS - HTML - Wordpress - <span>Woocommerce</span> - Three.js - Unity 3D -&nbsp;
-            </p>
-          </div>
-        </div>
-        <div class="wrapper">
-          <div class="marquee2">
-            <p>
-              React - Javascript - <span>Photoshop</span> - HTML - Wordpress - WooCommerce - Three.js - Unity 3D - C - C# - <span>Photoshop</span> - 3DS Max - React - Javascript - CSS - HTML - Wordpress - <span>Photoshop</span> - Three.js - Unity 3D -&nbsp;
-            </p>
-            <p>
-              React - Javascript - <span>Photoshop</span> - HTML - Wordpress - WooCommerce - Three.js - Unity 3D - C - C# - <span>Photoshop</span> - 3DS Max - React - Javascript - CSS - HTML - Wordpress - <span>Photoshop</span> - Three.js - Unity 3D -&nbsp;
-            </p>
-          </div>
-        </div>
-        <div class="wrapper">
-          <div class="marquee4">
-            <p>
-              React - <span>3DS Max</span> - CSS - HTML - Wordpress - WooCommerce - Three.js - Unity 3D - C - C# - Photoshop - <span>3DS Max</span> - React - Javascript - CSS - HTML - Wordpress - WooCommerce - <span>3DS Max</span> - Unity 3D -&nbsp;
-            </p>
-            <p>
-              <span>3DS Max</span> - Javascript - CSS - HTML - Wordpress - WooCommerce - Three.js - Unity 3D - C - C# - Photoshop - <span>3DS Max</span> - React - Javascript - CSS - HTML - Wordpress - WooCommerce - <span>3DS Max</span> - Unity 3D -&nbsp;
-            </p>
-          </div>
-        </div>
-  
-      </div>
-    </div>
-  </section>
-  <section id="projects">
-    <h1>Proyectos</h1>
-    <div class="projects-container">
-      <div class="project-item">
-        <div class="thumbnail">
-          <a href="https://angeliluminacion.com" target="_blank">
-            <img src="./assets/images/iluminacion.png" alt="angeliluminacion.com">
-          </a>
-        </div>
-        <p><span>angeliluminacion.com</span> Sitio web realizado con Vanilla js, HTML y CSS para empresa dedicada a la iluminación
-          y sistemas eléctricos.
-        </p>
-        <a class="project-btn link-btn" href="https://angeliluminacion.com" target="_blank">Ver</a>
-      </div>
-      <div class="project-item">
-        <div class="thumbnail">
-          <a href="https://nordianbeat.com" target="_blank">
-            <img src="./assets/images/nordian.png" alt="nordianbeat.com">
-          </a>
-        </div>
-        <p><span>nordianbeat.com</span> E-commerce realizado con Wordpress + Woocommerce y un poco de PHP para personalizar los correos automáticos.</p>
-        <a class="project-btn link-btn" href="https://nordianbeat.com" target="_blank">Ver</a>
-      </div>
-      <div class="project-item">
-        <div class="thumbnail">
-          <a href="https://nachofmoran.github.io/random-weather/" target="_blank">
-            <img src="./assets/images/random.png" alt="random weather app">
-          </a>
-        </div>
-        <p><span>randomweather</span> Web hecha con React para ver el tiempo en ciudades de todo el mundo de forma aleatoria, así como un mapa de esas ciudades</p>
-        <a class="project-btn link-btn" href="https://nachofmoran.github.io/random-weather/" target="_blank">Ver</a>
-      </div>
-    </div>
-    <a class="project-btn project-next btn-smooth" href="#contact">Contacto</a>
-  </section>
-  <section id="contact">
-    <h1>Contacto</h1>
-    <div class="contact-container">
-      <div class="contact-item">
-        <div class="linkedin icon">
-          <img src="./assets/images/linkedin.png" alt="linkedin icon">
-        </div>
-        <a class="about-btn" href="https://www.linkedin.com/in/ignaciofernandezmoran/" target="_blank">linkedin</a>
-      </div>
-      <div class="contact-item">
-        <div class="github icon">
-          <img src="./assets/images/github.png" alt="github icon">
-        </div>
-        <a class="about-btn" href="https://github.com/nachofmoran" target="_blank">github</a>
-      </div>
-      <div class="contact-item">
-        <div class="email icon">
-          <img src="./assets/images/email.png" alt="email icon">
-        </div>
-        <div class="popup about-btn" onclick="myFunction()">E-mail
-          <span class="popuptext" id="myPopup">nachofmoran@gmail.com</span>
+      <!-- <a href="https://github.com/nachofmoran">Accede a mi cuenta de Github</a> -->
+      <canvas class="webgl"></canvas>
+    </section>
+    <section id="about">
+      <h1>Sobre mí</h1>
+      <div class="about">
+        <img src="./assets/images/gran_via.png" alt="Nacho" width="100%" />
+        <div class="text">
+          <p>
+            ¡Hola! Soy Nacho, un desarrollador que está dando sus primero pasos
+            en el mundo del front-end. He estado un tiempo trabajando con
+            Wordpress y ahora ando metido en React, Javascript, HTML, CSS etc.
+            Antes hacía modelos en 3D. Bueno, todavía los hago, pero ahora mi
+            idea es combinarlos con el desarrollo web para crear sitios más
+            atractivos. Me interesa también el desarrollo de aplicaciones para
+            móviles, así que más pronto que tarde me pondré a ello. Además, me
+            gusta jugar con Photoshop, ya sea para hacer fotomontajes, matte
+            painting, ilustraciones o lo que se me pase por la cabeza.
+          </p>
+          <a class="about-btn btn-smooth" href="#skills">Habilidades</a>
         </div>
       </div>
-    </div>
-    <a class="contact-btn btn-smooth" href="#home">Volver a Inicio</a>
-  </section>
+    </section>
+    <section id="skills">
+      <h1>Habilidades</h1>
+      <div class="skills">
+        <div class="text">
+          <p>
+            En los últimos meses he estado trabajando principalmente con
+            <span>React</span>, <span>Javascript</span>, <span>HTML</span> y
+            <span>CSS</span>. También con <span>Three.js</span>. Antes, estuve
+            varios años usando <span>Wordpress</span> y
+            <span>Woocommerce</span> para crear mi tienda online, y hace tiempo
+            programé microcontroladores en <span>C</span> y videojuegos en
+            <span>C#</span> con <span>Unity 3D</span>. <span>3DS Max</span> lo
+            utilicé primero para hacer modelos para videojuegos, luego para
+            hacer renders de productos y ahora para hacer páginas web.
+            <span>Photoshop</span> ni me acuerdo ya de hace cuantos años empecé
+            a usarlo, y todavía sigo con ello.
+          </p>
+          <a class="skills-btn btn-smooth" href="#projects">Proyectos</a>
+        </div>
+        <div class="skills-container">
+          <div class="wrapper">
+            <div class="marquee">
+              <p>
+                <span>React</span> - Javascript - CSS - HTML - Wordpress -
+                WooCommerce - Three.js - Unity 3D - C - C# - Photoshop - 3DS Max
+                - <span>React</span> - Javascript - CSS - HTML - Wordpress -
+                <span>React</span> - Three.js - Unity 3D -&nbsp;
+              </p>
+              <p>
+                <span>React</span> - Javascript - CSS - HTML - Wordpress -
+                WooCommerce - Three.js - Unity 3D - C - C# - Photoshop - 3DS Max
+                - <span>React</span> - Javascript - CSS - HTML - Wordpress -
+                WooCommerce - Three.js - <span>React</span> -&nbsp;
+              </p>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="marquee3">
+              <p>
+                React - <span>Javascript</span> - CSS - HTML - Wordpress -
+                WooCommerce - Three.js - Unity 3D - C - C# - Photoshop - 3DS Max
+                - React - <span>Javascript</span> - CSS - HTML - Wordpress -
+                WooCommerce - Three.js - <span>Javascript</span> -&nbsp;
+              </p>
+              <p>
+                React - <span>Javascript</span> - CSS - HTML - Wordpress -
+                WooCommerce - Three.js - Unity 3D - C - C# - Photoshop - 3DS Max
+                - React - <span>Javascript</span> - CSS - HTML - Wordpress -
+                WooCommerce - Three.js - <span>Javascript</span> -&nbsp;
+              </p>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="marquee2">
+              <p>
+                React - Javascript - <span>CSS</span> - HTML - Wordpress -
+                WooCommerce - Three.js - Unity 3D - C - <span>CSS</span> -
+                Photoshop - 3DS Max - React - Javascript - <span>CSS</span> -
+                HTML - Wordpress - WooCommerce - Three.js - Unity 3D -&nbsp;
+              </p>
+              <p>
+                React - Javascript - <span>CSS</span> - HTML - Wordpress -
+                WooCommerce - Three.js - Unity 3D - C - <span>CSS</span> -
+                Photoshop - 3DS Max - React - Javascript - <span>CSS</span> -
+                HTML - Wordpress - WooCommerce - Three.js - Unity 3D -&nbsp;
+              </p>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="marquee3">
+              <p>
+                React - Javascript - CSS - <span>HTML</span> - Wordpress -
+                WooCommerce - Three.js - Unity 3D - <span>HTML</span> - C# -
+                Photoshop - 3DS Max - React - Javascript - CSS -
+                <span>HTML</span> - Wordpress - WooCommerce - Three.js - Unity
+                3D -&nbsp;
+              </p>
+              <p>
+                React - Javascript - CSS - <span>HTML</span> - Wordpress -
+                WooCommerce - Three.js - Unity 3D - <span>HTML</span> - C# -
+                Photoshop - 3DS Max - React - Javascript - CSS -
+                <span>HTML</span> - Wordpress - WooCommerce - Three.js - Unity
+                3D -&nbsp;
+              </p>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="marquee">
+              <p>
+                React - Javascript - CSS - HTML - <span>Wordpress</span> -
+                WooCommerce - Three.js - Unity 3D - C - C# -
+                <span>Wordpress</span> - 3DS Max - React - Javascript - CSS -
+                HTML - <span>Wordpress</span> - WooCommerce - Three.js - Unity
+                3D -&nbsp;
+              </p>
+              <p>
+                React - Javascript - CSS - HTML - <span>Wordpress</span> -
+                WooCommerce - Three.js - Unity 3D - C - C# - Photoshop -
+                <span>Wordpress</span> - React - Javascript - CSS - HTML -
+                <span>Wordpress</span> - WooCommerce - Three.js - Unity 3D
+                -&nbsp;
+              </p>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="marquee4">
+              <p>
+                <span>Three.js</span> - Javascript - CSS - HTML - Wordpress -
+                WooCommerce - <span>Three.js</span> - Unity 3D - C - C# -
+                Photoshop - 3DS Max - React - Javascript - CSS - HTML -
+                Wordpress - WooCommerce - <span>Three.js</span> - Unity 3D
+                -&nbsp;
+              </p>
+              <p>
+                React - <span>Three.js</span> - CSS - HTML - Wordpress -
+                WooCommerce - <span>Three.js</span> - Unity 3D - C - C# -
+                Photoshop - 3DS Max - React - Javascript - CSS - HTML -
+                Wordpress - WooCommerce - <span>Three.js</span> - Unity 3D
+                -&nbsp;
+              </p>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="marquee">
+              <p>
+                React - Javascript - CSS - HTML - Wordpress - WooCommerce -
+                Three.js - <span>Unity 3D</span> - C - C# - Photoshop - 3DS Max
+                - React - <span>Unity 3D</span> - CSS - HTML - Wordpress -
+                WooCommerce - Three.js - <span>Unity 3D</span> -&nbsp;
+              </p>
+              <p>
+                React - Javascript - CSS - HTML - Wordpress - WooCommerce -
+                Three.js - <span>Unity 3D</span> - C - C# - Photoshop - 3DS Max
+                - React - Javascript - <span>Unity 3D</span> - HTML - Wordpress
+                - WooCommerce - Three.js - <span>Unity 3D</span> -&nbsp;
+              </p>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="marquee3">
+              <p>
+                React - Javascript - <span>C</span> - HTML - Wordpress -
+                WooCommerce - Three.js - Unity 3D - <span>C</span> - C# -
+                Photoshop - 3DS Max - React - Javascript - CSS - HTML -
+                <span>C</span> - WooCommerce - Three.js - Unity 3D -&nbsp;
+              </p>
+              <p>
+                React - Javascript - <span>C</span> - HTML - Wordpress -
+                WooCommerce - Three.js - Unity 3D - <span>C</span> - C# -
+                Photoshop - 3DS Max - React - Javascript - CSS - HTML -
+                <span>C</span> - WooCommerce - Three.js - Unity 3D -&nbsp;
+              </p>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="marquee2">
+              <p>
+                <span>C#</span> - Javascript - CSS - HTML - Wordpress -
+                WooCommerce - Three.js - Unity 3D - C - <span>C#</span> -
+                Photoshop - 3DS Max - React - Javascript - CSS - HTML -
+                Wordpress - WooCommerce - Three.js - <span>C#</span> -&nbsp;
+              </p>
+              <p>
+                React - <span>C#</span> - CSS - HTML - Wordpress - WooCommerce -
+                Three.js - Unity 3D - C - <span>C#</span> - Photoshop - 3DS Max
+                - React - Javascript - CSS - HTML - Wordpress - WooCommerce -
+                Three.js - <span>C#</span> -&nbsp;
+              </p>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="marquee3">
+              <p>
+                React - Javascript - CSS - HTML - Wordpress -
+                <span>Woocommerce</span> - Three.js - Unity 3D - C - C# -
+                <span>Woocommerce</span> - 3DS Max - React - Javascript - CSS -
+                HTML - Wordpress - <span>Woocommerce</span> - Three.js - Unity
+                3D -&nbsp;
+              </p>
+              <p>
+                React - Javascript - CSS - HTML - Wordpress -
+                <span>Woocommerce</span> - Three.js - Unity 3D - C - C# -
+                <span>Woocommerce</span> - 3DS Max - React - Javascript - CSS -
+                HTML - Wordpress - <span>Woocommerce</span> - Three.js - Unity
+                3D -&nbsp;
+              </p>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="marquee2">
+              <p>
+                React - Javascript - <span>Photoshop</span> - HTML - Wordpress -
+                WooCommerce - Three.js - Unity 3D - C - C# -
+                <span>Photoshop</span> - 3DS Max - React - Javascript - CSS -
+                HTML - Wordpress - <span>Photoshop</span> - Three.js - Unity 3D
+                -&nbsp;
+              </p>
+              <p>
+                React - Javascript - <span>Photoshop</span> - HTML - Wordpress -
+                WooCommerce - Three.js - Unity 3D - C - C# -
+                <span>Photoshop</span> - 3DS Max - React - Javascript - CSS -
+                HTML - Wordpress - <span>Photoshop</span> - Three.js - Unity 3D
+                -&nbsp;
+              </p>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="marquee4">
+              <p>
+                React - <span>3DS Max</span> - CSS - HTML - Wordpress -
+                WooCommerce - Three.js - Unity 3D - C - C# - Photoshop -
+                <span>3DS Max</span> - React - Javascript - CSS - HTML -
+                Wordpress - WooCommerce - <span>3DS Max</span> - Unity 3D
+                -&nbsp;
+              </p>
+              <p>
+                <span>3DS Max</span> - Javascript - CSS - HTML - Wordpress -
+                WooCommerce - Three.js - Unity 3D - C - C# - Photoshop -
+                <span>3DS Max</span> - React - Javascript - CSS - HTML -
+                Wordpress - WooCommerce - <span>3DS Max</span> - Unity 3D
+                -&nbsp;
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h1>Proyectos</h1>
+      <div class="projects-container">
+        <div class="project-item">
+          <div class="thumbnail">
+            <a href="https://angeliluminacion.com" target="_blank">
+              <img
+                src="./assets/images/iluminacion.png"
+                alt="angeliluminacion.com"
+              />
+            </a>
+          </div>
+          <p>
+            <span>angeliluminacion.com</span> Sitio web realizado con Vanilla
+            js, HTML y CSS para empresa dedicada a la iluminación y sistemas
+            eléctricos.
+          </p>
+          <a
+            class="project-btn link-btn"
+            href="https://angeliluminacion.com"
+            target="_blank"
+            >Ver</a
+          >
+        </div>
+        <div class="project-item">
+          <div class="thumbnail">
+            <a href="https://nordianbeat.com" target="_blank">
+              <img src="./assets/images/nordian.png" alt="nordianbeat.com" />
+            </a>
+          </div>
+          <p>
+            <span>nordianbeat.com</span> E-commerce realizado con Wordpress +
+            Woocommerce y un poco de PHP para personalizar los correos
+            automáticos.
+          </p>
+          <a
+            class="project-btn link-btn"
+            href="https://nordianbeat.com"
+            target="_blank"
+            >Ver</a
+          >
+        </div>
+        <div class="project-item">
+          <div class="thumbnail">
+            <a
+              href="https://nachofmoran.github.io/random-weather/"
+              target="_blank"
+            >
+              <img src="./assets/images/random.png" alt="random weather app" />
+            </a>
+          </div>
+          <p>
+            <span>randomweather</span> Web hecha con React para ver el tiempo en
+            ciudades de todo el mundo de forma aleatoria, así como un mapa de
+            esas ciudades
+          </p>
+          <a
+            class="project-btn link-btn"
+            href="https://nachofmoran.github.io/random-weather/"
+            target="_blank"
+            >Ver</a
+          >
+        </div>
+      </div>
+      <a class="project-btn project-next btn-smooth" href="#contact"
+        >Contacto</a
+      >
+    </section>
+    <section id="contact">
+      <h1>Contacto</h1>
+      <div class="contact-container">
+        <div class="contact-item">
+          <div class="linkedin icon">
+            <img src="./assets/images/linkedin.png" alt="linkedin icon" />
+          </div>
+          <a
+            class="about-btn"
+            href="https://www.linkedin.com/in/ignaciofernandezmoran/"
+            target="_blank"
+            >linkedin</a
+          >
+        </div>
+        <div class="contact-item">
+          <div class="github icon">
+            <img src="./assets/images/github.png" alt="github icon" />
+          </div>
+          <a
+            class="about-btn"
+            href="https://github.com/nachofmoran"
+            target="_blank"
+            >github</a
+          >
+        </div>
+        <div class="contact-item">
+          <div class="email icon">
+            <img src="./assets/images/email.png" alt="email icon" />
+          </div>
+          <div class="popup about-btn" onclick="myFunction()">
+            E-mail
+            <span class="popuptext" id="myPopup">nachofmoran@gmail.com</span>
+          </div>
+        </div>
+      </div>
+      <a class="contact-btn btn-smooth" href="#home">Volver a Inicio</a>
+    </section>
 
     <script type="text/javascript" src="js/navigation.js"></script>
     <script type="text/javascript" src="js/smooth_scrolling.js"></script>
     <script type="text/javascript" src="js/popup.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/104/three.js"></script>
-		<script src="js/three_scene.js"></script>
-	</body>
+    <script src="js/three_scene.js"></script>
+  </body>
 </html>
